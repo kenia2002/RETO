@@ -1,0 +1,60 @@
+  315  cd..
+  316  cd ..
+  317  clear
+  318  mkdir TallerClase3
+  319  mkdir MoverImagenAqui
+  320  cd TallerClase3
+  321  mkdir Archivos
+  322  mkdir MoverImagenAqui
+  323  cd Archivos
+  324  touch TextoPlano1.txt TextoPlano2.txt
+  325  mkdir TextoPlano1.txt
+  326  cat TextoPlano1.txt
+  327  echo "Prueba1" >> TextoPlano1.txt
+  328  cat TextoPlano1.txt
+  329  echo "Prueba2" >> TextoPlano2.txt
+  330  cat TextoPlano2.txt
+  331  mkdir TextosPlanos
+  332  cd TextosPlanos
+  333  mv TextoPlano1.txt
+  334  mv TextoPlano1.txt TextosPlanos
+  335  mv TextoPlano1.txt TextoPlano2.txt TextosPlanos
+  336  cd ..
+  337  mv TextoPlano1.txt TextoPlano2.txt TextosPlanos
+  338  cd Explicacion.pdf
+  339  history
+  340  cd..
+  341  cd ..
+  342  cd Archivos
+  343  touch Explicacion.pdf
+  344  mkdir Pdf
+  345  mv Explicacion.pdf Pdf
+  346  cd ..
+  347  cp Python\Captura1.png TallerClase3
+  348  cp C:\Users\kenia\OneDrive\Imágenes\Python\Captura1.png
+  349  cd ..
+  350  cp Captura1.png TallerClase2
+  351  cp Captura1.png TallerClase3
+  352  curl -o imagen1.jpg https://cdn.memegenerator.es/imagenes/memes/full/33/9/33093936.jpg
+  353  mv imagen1.jpg MoverImagenAqui
+  354  mv imagen1.jpg ./mover_imagen1_aqui
+  355  mv imagen1.jpg ./MoverImagenAqui
+  356  mv imagen1.jpg ./MoverImagenAqui
+  357  mv captura3.png ./MoverImagenAqui
+  358  mv Captura3.png ./MoverImagenAqui
+  359  mv "C:\Users\kenia\TallerClase3\Captura3.png ./MoverImagenAqui
+  360  cd TallerClase3
+  361  mv captura3.png ./MoverImagenAqui
+  362  clear
+  363  history
+  364  cd TallerClase3
+  365  mv Captura3.png ./MoverImagenAqui
+  366  cmd //c tree
+  367  cd ..
+  368  cmd //c tree
+  369   history | tall -n 30 > historial.txt
+  370   history | tail -n 20 > historial.txt
+  371  cd TallerClase3
+  372   history | tail -n 20 > historial.txt
+  373   history
+  374   history | tail -n 60 > historial.txt
